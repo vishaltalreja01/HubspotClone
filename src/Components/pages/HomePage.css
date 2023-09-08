@@ -1,0 +1,210 @@
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    background-color: rgb(247, 241, 233);
+  }
+  
+  .content-wrapper {
+    display: flex;
+    width: 100%; /* Make the content wrapper occupy the full width */
+    height: 400px;
+    max-width: 1000px; /* Adjust the maximum width as per your requirement */
+  }
+  
+  .left-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    
+  }
+  
+
+  .image {
+    position: absolute; /* Position the image absolutely within the right section */
+    top: 0;
+    left: 0;
+    width: 500px;/* Set the image width to 100% */
+    height:  450px; /* Set the image height to 100% */
+/* Use object-fit: cover to fill the right section */
+    margin-left: 800px;
+    
+  }
+  
+  
+  
+  
+  
+  
+  
+  .title {
+    font-size: 44px;
+    font-weight: bold;
+    
+    text-align: left;
+    margin-left: 2px;
+  }
+  
+  .description-left-section {
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: left;
+    margin-right:  450px;
+  }
+  
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 20px;
+  }
+  
+  .button {
+    margin-right: 10px;
+    padding: 15px 30px;
+    background-color: #ec4a10;
+    border: none;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .button2 {
+
+
+    background-color: white;
+    border: 1px solid #ec4a10;
+ 
+    color: #ec4a10;
+   
+  }
+  
+  .button-dem:hover {
+    background-color: white;
+    color: #ec4a10;
+  }
+  .button-wide {
+    width: 300px; /* Adjust the width as per your requirement */
+  }
+  .button-free:hover {
+    background-color: #a43811;
+    color: white;
+  }
+  
+  .right-section {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  
+  .image {
+    margin-top: 100px;
+    max-width: 50%;
+    max-height: 50%;
+    padding-top: 50px;
+  }
+  .what-is-hubspot {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 200px;
+  }
+  
+  .description-wih {
+    margin-top: 10px;
+    font-size: 25px;
+    text-align: left;
+    padding: 10px;
+    justify-content: center;
+  }
+  
+  .box {
+    width: 300px; /* Adjust the width as per your requirement */
+    height: 430px; /* Adjust the height as per your requirement */
+    padding: 20px;
+    margin-top: 40px;
+    margin: 10px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .feature-list {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 10px;
+  }
+  
+  .feature-list li::before {
+    content: '•';
+    display: inline-block;
+    width: 1em;
+    color: #ec4a10;
+    margin-left: -1em;
+  }
+  .box-features{
+    display: flex;
+    justify-content: flex-start;
+  }
+.boxes{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+}
+  
+.line {
+
+ padding: 10px;
+    border-top: 1px solid black;
+  }
+  .box2 {
+    display: flex;
+    align-items: center;
+    width: 1000px; /* Adjust the width as per your requirement */
+    height: 200px; /* Adjust the height as per your requirement */
+    padding: 20px;
+    margin-top: 40px;
+    margin: 10px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .article-box {
+    display: flex;
+ justify-content: center;
+    flex-direction: row;
+
+  }
+  .box-img {
+    margin-right: 20px;
+    width: 350px;
+  
+  }
+  
+  .box-content {
+    
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+
+  }
+  
+  .box-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+.box-description {
+    margin-top: 10px;
+    font-size: 16px;
+  }

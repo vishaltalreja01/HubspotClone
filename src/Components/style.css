@@ -1,0 +1,532 @@
+.main {
+    background-color: #fef4ea;
+    padding-top: 15px;
+    padding-bottom: 45px;
+}
+
+.link {
+    color: #0b8484;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 130px;
+}
+
+.text {
+    margin-left: 10px;
+    font-size: small;
+}
+
+.doublediv {
+    display: flex;
+    margin: auto;
+    max-width: 80%;
+    margin-top: 35px;
+}
+
+.img-div {
+    min-width: 45%;
+}
+
+.first-img {
+    height: auto;
+    max-height: 320px;
+    width: 100%;
+    border: 10px solid #fcead7;
+    /* max-height: 320px; */
+}
+
+.contentdiv {
+    margin-left: 40px;
+}
+
+.heading {
+    color: rgb(80, 78, 78);
+    font-size: 35px;
+}
+
+.description {
+    font-size: 1.125rem;
+    margin-bottom: 300px;
+    color: rgb(80, 78, 78);
+    margin: auto;
+}
+
+.mydarkbtn {
+    padding: 0.9em 1.388em;
+    font-size: 0.9375rem;
+    min-width: 8.555rem;
+    background-color: #ff5c35;
+    color: #fff;
+    border: 1px solid #ff5c35;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.tickandtext {
+    display: flex;
+    margin-top: 15px;
+}
+
+.tick.small {
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+    color: #ff5c35;
+}
+
+.tick.medium {
+    width: 24px;
+    height: 24px;
+    margin-top: 5px;
+    color: #ff5c35;
+}
+
+.tick.large {
+    width: 22px;
+    height: 22px;
+    margin-top: 5px;
+    color: #ff5c35;
+}
+
+.ticktext {
+    color: rgb(80, 78, 78);
+    margin-left: 15px;
+}
+
+.section {
+    display: flex;
+    background-color: white;
+    margin-top: 80px;
+}
+
+.contain {
+    display: flex;
+    margin: auto;
+    max-width: 80%;
+    padding-bottom: 40px;
+}
+
+.textdiv {
+    display: flex;
+    flex-direction: column;
+    max-width: 55%;
+}
+
+.header {
+    font-size: 35px;
+    color: rgb(80, 78, 78);
+}
+
+.para {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.75;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.imgdiv {
+    margin: auto;
+    width: 50%;
+    /* margin-left: 40px;
+    margin-top: 40px; */
+    display: flex;
+    align-items: center;
+}
+
+.toolimg {
+    border: 1px solid #7691ad;
+    max-width: 100%;
+}
+
+
+.top {
+    display: flex;
+    background-color: #eaf0f6;
+    margin-top: 60px;
+    padding-top: 20px;
+}
+
+.containerr {
+    display: flex;
+    margin: auto;
+    max-width: 80%;
+    padding-bottom: 25px;
+}
+
+.formimg {
+    border: 1px solid #7691ad;
+    display: block;
+    width: 100%;
+    opacity: 1;
+}
+
+.imgbox {
+    margin-top: 40px;
+}
+
+.contdiv {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    max-width: 45%;
+    margin-left: 50px;
+}
+
+.crmhead {
+    font-size: 25px;
+    color: rgb(80, 78, 78);
+}
+
+.txt {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.75;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.mysection {
+    display: flex;
+    background-color: #eaf0f6;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.containing {
+    display: flex;
+    margin: auto;
+    max-width: 80%;
+    padding-bottom: 40px;
+}
+
+.txtdiv {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    margin-top: 40px;
+}
+
+.myhead {
+    font-size: 25px;
+    color: rgb(80, 78, 78);
+}
+
+.par {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.75;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.picdiv {
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.mypic {
+    border: 1px solid #7691ad;
+    display: block;
+    width: 100%;
+    opacity: 1;
+}
+
+.first {
+    display: flex;
+    background-color: #eaf0f6;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+.mycontainerr {
+    display: flex;
+    margin: auto;
+    max-width: 80%;
+    padding-bottom: 25px;
+}
+
+.myformimg {
+    border: 1px solid #7691ad;
+    display: block;
+    width: 100%;
+    opacity: 1;
+}
+
+.myimgbox {
+    margin-top: 40px;
+}
+
+.mycontdiv {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    max-width: 45%;
+    margin-left: 50px;
+}
+
+.fuphead {
+    font-size: 25px;
+    color: rgb(80, 78, 78);
+}
+
+.fuptxt {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.75;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+a {
+    color: #0b8484;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.contact {
+    max-width: 500px;
+    width: auto;
+    margin: auto;
+    background: #fff;
+    border-radius: 4rem;
+    box-shadow: 0 1px 5px 0 rgba(33, 51, 67, 0.12);
+    font-size: 0.875rem;
+    padding: 0.5rem 2rem;
+    text-align: center;
+    transform: translateY(-50%);
+}
+
+.cont-text {
+    font-size: 0.875rem;
+    font-weight: 600;
+    margin: 0.25rem 0 0;
+    margin-bottom: 10px;
+}
+
+.start {
+    margin-top: 50px;
+    padding-bottom: 60px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.625rem;
+    font-weight: bold;
+    color: rgb(43, 40, 40);
+}
+
+.cardsdiv {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 90%;
+    margin-top: 30px;
+}
+
+.cards {
+    max-width: 32%;
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.cardtxt {
+    color: #2e475d;
+    font-size: 1rem;
+    font-weight: 400;
+    min-height: 5rem;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+a {
+    color: #0b8480;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: auto;
+    padding-bottom: 10px;
+}
+
+.interested {
+    text-align: center;
+    /* margin-left: 250px; */
+}
+
+.topquest {
+    background-color: #eaf0f6;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h2 {
+    padding-bottom: 30px;
+}
+
+.boxes {
+    display: flex;
+    margin: auto;
+    width: 80%;
+}
+
+.question-box {
+    border: 1px solid #7691ad;
+    display: flex;
+    width: 50%;
+    padding: 15px 15px;
+    background-color: white;
+    margin: 10px 10px;
+}
+
+.greater {
+    margin-right: 10px;
+}
+
+.query {
+    font-weight: bold;
+    font-size: 18px;
+    display: inline;
+}
+
+.lasttop {
+    background-color: #3e5974;
+    padding-top: 80px;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.ptext {
+    color: white;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.75;
+    margin-top: 1rem;
+    margin-bottom: 200px;
+}
+
+h1 {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.carddiv {
+    margin-top: 3rem;
+    display: flex;
+    margin: auto;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.mybox {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 30%;
+    border-radius: 5px;
+
+}
+
+.boxtext {
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    width: 80%;
+    margin-bottom: 40px;
+}
+
+.url {
+    margin-top: 20px;
+    margin-left: -20px;
+}
+
+
+@media (max-width:1024px) {
+    .doublediv {
+        flex-direction: column;
+    }
+
+    .contentdiv {
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+}
+
+@media (max-width:767px) {
+    .doublediv {
+        max-width: 95%;
+    }
+
+    .containerr {
+        max-width: 95%;
+    }
+
+    .contdiv {
+        margin-left: 20px;
+    }
+
+    .contain {
+        max-width: 95%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .imgdiv {
+        width: 100%;
+    }
+
+    .textdiv {
+        margin-top: 20px;
+        max-width: 100%;
+    }
+
+    .header {
+        font-size: 25px;
+    }
+
+    .para {
+        font-size: 0.9rem;
+    }
+
+    .boxes {
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        width: 95%;
+    }
+
+    .question-box {
+        width: 100%;
+    }
+
+    .containing {
+        max-width: 95%;
+    }
+}
+
+@media (max-width:500px) {
+    .containerr {
+        flex-direction: column-reverse;
+    }
+
+    .contdiv {
+        max-width: 100%;
+        margin-left: 0px;
+    }
+
+    .mysection {
+        padding-top: 0px;
+        padding-bottom: 50px;
+    }
+
+    .containing {
+        flex-direction: column;
+        max-width: 95%;
+    }
+}

@@ -1,0 +1,59 @@
+.accordion-button::after {
+    flex-shrink: 0;
+    width: var(--bs-accordion-btn-icon-width);
+    height: var(--bs-accordion-btn-icon-width);
+    margin-left: auto;
+    content: "";
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAACRCAMAAACxBweTAAAAD1BMVEX///8sh/BgpfTK4fuVw/fgH/24AAAAvUlEQVR4nO3YuQ2AMAAEQfP0XzMNkGAJs0KzFdykN4YkSXqvY7tt/3rX40BqgdQCqQVSC6QWSC2QWiC1QGqB1AKpBVILpBZILZBaILVAaoHUAqkFUgukFkgtkFogtUBqgdQqQvb7TQs7QUBAQEBAQEBAQEBAQEBAQEDWQaYq/lpTgdQCqQVSC6QWSC2QWiC1QGqB1AKpBVILpBZILZBaILVAaoHUAqkFUgukFkgtkFogtUBqgdQCqfUbiKRWF5TDF4ZFUma1AAAAAElFTkSuQmCC");
+    background-repeat: no-repeat;
+    background-size: var(--bs-accordion-btn-icon-width);
+    transition: var(--bs-accordion-btn-icon-transition);
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAACRCAMAAACxBweTAAAAD1BMVEX///8sh/BgpfTK4fuVw/fgH/24AAAAvUlEQVR4nO3YuQ2AMAAEQfP0XzMNkGAJs0KzFdykN4YkSXqvY7tt/3rX40BqgdQCqQVSC6QWSC2QWiC1QGqB1AKpBVILpBZILZBaILVAaoHUAqkFUgukFkgtkFogtUBqgdQqQvb7TQs7QUBAQEBAQEBAQEBAQEBAQEDWQaYq/lpTgdQCqQVSC6QWSC2QWiC1QGqB1AKpBVILpBZILZBaILVAaoHUAqkFUgukFkgtkFogtUBqgdQCqfUbiKRWF5TDF4ZFUma1AAAAAElFTkSuQmCC");
+    transform: var(--bs-accordion-btn-icon-transform);
+}
+
+.collapse {
+    visibility: visible !important;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: white;
+}
+
+.outerdiv {
+
+    padding-bottom: 10px;
+}
+
+.alignCentered {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.innerdiv {
+    background-image: url('https://f.hubspotusercontent00.net/hubfs/53/Kettlebell%20Kings%20Featured%20Image.jpg');
+    height: 460px;
+    /* background: rgba(33,51,67,.79); */
+
+    border: 1px solid black;
+    /* background-color: black; */
+    content: "";
+    opacity: 0.25;
+    overflow: hidden;
+    width: 30%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+}
+
+.innerdiv:hover {
+    opacity: 0.9;
+}
+
+.Logo {
+    background-color: white;
+    opacity: 0.9;
+}
